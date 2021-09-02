@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestWeb</name>
+    </assembly>
+    <members>
+        <member name="M:TestWeb.Controllers.SearchDialogsController.SearchByAllClients(System.Guid[])">
+            <summary>
+            Осуществляет поиск диалога
+            </summary>
+            <remarks>
+                POST SearchByAllClients/
+                    [
+                        "4b6a6b9a-2303-402a-9970-6e71f4a47151",
+                        "c72e5cb5-d6b4-4c0c-9992-d7ae1c53a820"
+                    ]
+            </remarks>
+            <param name="clientIds">идентификаторы клиентов</param>
+            <returns></returns>
+            <response code="200">Возвращает первый найденный диалог</response>
+        </member>
+    </members>
+</doc>
